@@ -1,0 +1,76 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    background-color: rgb(191, 156, 224);
+}
+header {
+    display: block;
+    text-align: center;
+    font-size: large;
+    background-color: rgb(175, 175, 213);
+    padding: 50px;
+}
+main {
+  background-color: rgb(169, 211, 211);
+}
+.all-facts
+   
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+
+}
+p {
+  font-size: large;
+  font-style: italic;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+    background-color: rgb(173, 17, 152);
+    overflow: hidden;
+  }
+  
+  /* Style the links inside the navigation bar */
+  .topnav a {
+    float: left;
+    color: #020101;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  /* Change the color of links on hover */
+  .topnav a:hover {
+    background-color: #ddd;
+    color: rgb(0, 0, 0);
+  }
+  
+  /* Add a color to the active/current link */
+  .topnav a.active {
+    background-color: #040504;
+    color: rgb(233, 227, 233);
+  }
+
+  .apps {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+    float: right;
+    text-align: left;
+  }
+  
+ .all-facts {
+  text-align: center;
+ }
+
+
