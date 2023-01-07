@@ -68,6 +68,13 @@ text-align: center;
   margin: auto;
 }
 
+
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.5); 
+}
+
 #barnaby {
   display: flex;
   flex-direction: column;
@@ -147,6 +154,19 @@ text-align: center;
   text-align: center;
   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
+
+.back-to-top {
+  background-color: rgb(173, 17, 152);
+    color: rgb(247, 248, 251);
+    font-size: 16px;
+    float: right;
+    width: 15%;
+    margin: 2% 0;
+    padding: 2%;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
 .footer {
   position: center;
   left: 0;
