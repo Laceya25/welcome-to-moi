@@ -1,76 +1,165 @@
 * {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
 }
 
 html {
-    background-color: rgb(191, 156, 224);
+  background-color: rgb(191, 156, 224);
 }
 header {
-    display: block;
-    text-align: center;
-    font-size: large;
-    background-color: rgb(175, 175, 213);
-    padding: 50px;
-}
-main {
-  background-color: rgb(169, 211, 211);
-}
-.all-facts
-   
-img {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-    width: 25%;
-
-}
-p {
+  background-image: url(/Images/Cloud.JPG);
+  background-repeat: no-repeat;
+  background-size: 100vw 120vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
   font-size: large;
-  font-style: italic;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: rgb(175, 175, 213);
+  padding: 50px;
+
 }
 
+.header-box {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+padding: 100px;
+}
+#header-img {
+  height: 200px;
+  width: 300px;
+  
+}
+.about-me-container {
+background-color: rgb(169, 211, 211);
+color: var(--font-color);
+max-width: 100%;
+margin: auto;
+text-align: center;
+font-style: italic;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.app-img {
+  height: 400px;
+  width: 400px;
+  padding: 25px;
+  background-color: rgb(180, 229, 229);
+}
+
+p {
+font-size: large;
+font-style: italic;
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+display: block;
+text-align: center;
+}
+
+#pickleball {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgb(180, 229, 229);;
+  width: fit-content;
+  margin: auto;
+}
+
+#barnaby {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgb(180, 229, 229);;
+  width: fit-content;
+  margin: auto;
+}
+
+#band {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-style: solid;
+  border-width: 3px;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: rgb(180, 229, 229);;
+  width: fit-content;
+  margin: auto;
+}
 /* Add a black background color to the top navigation */
 .topnav {
-    background-color: rgb(173, 17, 152);
-    overflow: hidden;
-  }
-  
-  /* Style the links inside the navigation bar */
-  .topnav a {
-    float: left;
-    color: #020101;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-  }
-  
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #ddd;
-    color: rgb(0, 0, 0);
-  }
-  
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #040504;
-    color: rgb(233, 227, 233);
-  }
+  background-color: rgb(173, 17, 152);
+  overflow: hidden;
+}
 
-  .apps {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: 10px;
-    float: right;
-    text-align: left;
-  }
-  
- .all-facts {
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #020101;
   text-align: center;
- }
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
 
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: #ddd;
+  color: rgb(0, 0, 0);
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: #040504;
+  color: rgb(233, 227, 233);
+}
+
+.all-facts {
+  display: fixed;
+  justify-content: center;
+  gap: 150px;
+  float: right;
+  text-align: left;
+  padding: 30px;
+}
+.main-app {
+  display: flex;
+  justify-content: flex;
+  padding: 30px;
+  flex-wrap: wrap;
+flex-direction: row;
+padding: 100px;
+}
+
+.all-facts {
+text-align: center;
+}
+
+.contact-me {
+  background-color: rgb(175, 175, 213); ;
+  text-align: center;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.footer {
+  position: center;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color:   rgb(173, 17, 152);
+  color: white;
+  text-align: center;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  padding: 100;
+  
+}
 
