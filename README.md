@@ -3,21 +3,9 @@
 ## User Story
 I want to showcase my skills this far with a website showing all ive learned 
 
-## Acceptance Criteria
+## The What 
 
-* GIVEN I need to sample a potential employee's previous work
-* WHEN I load their portfolio
-* THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-* WHEN I click one of the links in the navigation
-* THEN the UI scrolls to the corresponding section
-* WHEN I click on the link to the section about their work
-* THEN the UI scrolls to a section with titled images of the developer's applications
-* WHEN I am presented with the developer's first application
-* THEN that application's image should be larger in size than the others
-* WHEN I click on the images of the applications
-* THEN I am taken to that deployed application
-* WHEN I resize the page or view the site on various screens and devices
-* THEN I am presented with a responsive layout that adapts to my viewport
+To begin this project, I created a unique name and opened a folder. Once I brainstormed with wireframing I created a style sheet for my HTML. I wanted to show case my understanding this far in our program for employers to see. I created 3 apps, two of them having external links. My nav bar is fully functional and also have the ways to contact me at the bottom with external links as well. While basic, I enjoyed creating this project.
 
 ## Credit
 
