@@ -8,7 +8,7 @@ html {
   background-color: rgb(191, 156, 224);
 }
 header {
-  background-image: url(/Images/Cloud.JPG);
+  background-image: url(/Assets/Images/Cloud.JPG);
   background-repeat: no-repeat;
   background-size: 100vw 120vh;
   display: flex;
