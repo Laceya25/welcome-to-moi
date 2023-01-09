@@ -8,9 +8,7 @@ html {
   background-color: rgb(191, 156, 224);
 }
 header {
-  background-image: url(/Assets/Images/Cloud.JPG);
-  background-repeat: no-repeat;
-  background-size: 100vw 120vh;
+  
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -22,8 +20,12 @@ header {
 }
 
 .header-box {
-  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  background-image: url("/Images/Sun.jpg");
+  background-repeat: no-repeat;
+  background-size: 100vw 120vh;
+font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 padding: 100px;
+
 }
 #header-img {
   height: 200px;
