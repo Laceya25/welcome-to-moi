@@ -20,7 +20,7 @@ header {
 }
 
 .header-box {
-  background-image: url("/Images/Sun.jpg");
+  background-image: url("./Assets/Images/Clouds.JPG");
   background-repeat: no-repeat;
   background-size: 100vw 120vh;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
